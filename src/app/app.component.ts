@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'School';
+  reg=''
+  Update(event:{reg:string}){
+    // console.log(event.reg);
+    this.reg=event.reg
+    
+  }
 }
